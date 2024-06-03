@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.link{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo{
+    margin-right: 110px;
+}
+
+.navbutton{
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.aboutsection{
+    margin-top: 150px;
+}
+
+.top{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.header{
+    color: rgba(128, 128, 128, 0.548);
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text1{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.heroimg{
+    height: 350px;
+    margin-left: 50px;
+}
+
+.text2{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.aboutsection2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.fst{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subheader2{
+    padding-top: 6px;
+    color: rgba(128, 128, 128, 0.547);
+}
+
+.snd{
+    display: flex;
+    flex-direction: column;
+}
+
+.button1{
+    height: 30px;
+    width: 60px;
+    background-color: transparent;
+    border-color: rgba(128, 128, 128, 0.312);
+    border-radius: 20px;
+}
+
+.button2{
+    height: 30px;
+    width: 60px;
+    margin-top: 50px;
+    background-color: transparent;
+    border-color: rgba(128, 128, 128, 0.36);
+    border-radius: 20px;
+}
+
+.aboutimg{
+    height: 250px;
+}
+
+

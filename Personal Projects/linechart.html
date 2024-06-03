@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 100%;">
+        <canvas id="myChart"></canvas>
+    </div>
+
+<script>
+    let myChart = document.getElementById('myChart').getContext('2d');
+
+    Chart.defaults.font.size = 15;
+
+    const data = [
+        { year: 2010, count: 10, countTwo: 5 },
+        { year: 2011, count: 20, countTwo: 10 },
+        { year: 2012, count: 15, countTwo: 12 },
+        { year: 2013, count: 25, countTwo: 18 },
+        { year: 2014, count: 22, countTwo: 20 },
+        { year: 2015, count: 30, countTwo: 25 },
+        { year: 2016, count: 28, countTwo: 22 },
+    ];
+
+    let massbarChart = new Chart(myChart, {
+        type: 'line', // bar, horizontalBar, pie, line, doughnut
+        data: {
+            labels: data.map(row => row.year),
+            datasets: [
+                {
+                    label: 'Acquisitions by Year',
+                    data: data.map(row => row.count),
+                    backgroundColor: 'green', // for an array ['color1', 'color2']
+                    borderColor: 'green',
+                    borderWidth: 2,
+                    fill: false
+                },
+                {
+                    label: 'Count Two by Year',
+                    data: data.map(row => row.countTwo),
+                    backgroundColor: 'blue', // for an array ['color1', 'color2']
+                    borderColor: 'blue',
+                    borderWidth: 2,
+                    fill: false
+                }
+            ]
+        },
+        options: {
+            tension: 0.4, //for the curved lines, 0= straight
+        
+            animation: true,
+            scales:{
+                x:{
+                    grid: {
+                        display: false
+                    }
+                    
+                }
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Peformance metrics',
+                    font: {
+                        size: 30
+                    }
+                },
+                legend: {
+                    display: true,
+                    //position: 'right',
+            
+                    labels: {
+                        color: 'pink'
+                    }
+                },
+                tooltip: {
+                    // enabled: false
+                }
+            },
+            layout: {
+                padding: {
+                    left: 50
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>
