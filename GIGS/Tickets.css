@@ -106,7 +106,7 @@
     padding-bottom: 90px;
     padding-right: 30px;
     padding-left: 30px;
-    background-color:  rgba(0, 37, 122, 0.731);
+    background-color:  rgba(0, 37, 122, 0.836);
     position: relative;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .sub-header{
-    padding: 10px 30px;
+    padding: 30px 50px;
     font-size: 17px;
     color: white;
 }
@@ -164,7 +164,7 @@
 
 .box-section{
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -231,31 +231,7 @@
 }
 
 .img-2{
-    width: 50px;
-    object-fit: contain;
-    margin-right: 20px;
-}
-
-.box-three{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    width: 100vw;
-    height: 11vh;
-    padding: 20px 20px;
-    margin-left: 4px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-.box-three:hover{
-    cursor: pointer;
-    outline: auto  rgba(1, 43, 142, 0.557);
-}
-
-.img-3{
-    width: 30px;
+    width: 40px;
     object-fit: contain;
     margin-right: 20px;
 }
@@ -279,7 +255,940 @@
 }
 
 .img-4{
-    width: 30px;
+    width: 50px;
     object-fit: contain;
     margin-right: 20px;
+}
+
+
+
+
+.concert{
+    margin-bottom: 100px;
+}
+
+.cinema{
+    margin-bottom: 100px;
+}
+
+.headers{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.HEAD{
+    color: rgb(1, 43, 142);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.square-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: 0 auto; 
+    padding: 0 90px; 
+    margin-top: 20px;
+}
+
+.square-row{
+    display: flex;
+    width: 100%;
+}
+
+.square-row .square{
+    width: 31%;
+    margin: 1%;
+}
+
+.square-box-13{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/concert-one.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-13:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: -1;
+    transition: background 0.3s ease;
+}
+
+.square-box-13:hover{
+    cursor: pointer;
+}
+
+.square-box-13:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-14{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/concert-two.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-14:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-14:hover{
+    cursor: pointer;
+}
+
+.square-box-14:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-15{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/concert-three.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-15:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-15:hover{
+    cursor: pointer;
+}
+
+.square-box-15:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-16{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/concert-four.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-16:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-16:hover{
+    cursor: pointer;
+}
+
+.square-box-16:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-17{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/concert-five.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-17:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-17:hover{
+    cursor: pointer;
+}
+
+.square-box-17:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-18{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/concert-six.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-18:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-18:hover{
+    cursor: pointer;
+}
+
+.square-box-18:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.square-box-one{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/movie-one.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-one:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: -1;
+    transition: background 0.3s ease;
+}
+
+.square-box-one:hover{
+    cursor: pointer;
+}
+
+.square-box-one:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-two{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/movie-two.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-two:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-two:hover{
+    cursor: pointer;
+}
+
+.square-box-two:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-three{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/movie-three.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-three:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-three:hover{
+    cursor: pointer;
+}
+
+.square-box-three:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-four{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/movie-four.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-four:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-four:hover{
+    cursor: pointer;
+}
+
+.square-box-four:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-five{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/movie-five.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-five:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-five:hover{
+    cursor: pointer;
+}
+
+.square-box-five:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-six{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/movie-six.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-six:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-six:hover{
+    cursor: pointer;
+}
+
+.square-box-six:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-seven{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/comedy-one.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-seven:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-seven:hover{
+    cursor: pointer;
+}
+
+.square-box-seven:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-eight{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/comedy-two.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-eight:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-eight:hover{
+    cursor: pointer;
+}
+
+.square-box-eight:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-nine{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/comedy-three.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-nine:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-nine:hover{
+    cursor: pointer;
+}
+
+.square-box-nine:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-ten{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/comedy-four.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-ten:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-ten:hover{
+    cursor: pointer;
+}
+
+.square-box-ten:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+
+.square-box-eleven{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/comedy-five.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-eleven:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-eleven:hover{
+    cursor: pointer;
+}
+
+.square-box-eleven:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+
+.square-box-twelve{
+    margin: 1%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    position: relative;
+    background-image: url('/Users/mac/Desktop/Liam⚡️/FRONT END DEV/GIGS/G images/comedy-six.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.square-box-twelve:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.square-box-twelve:hover{
+    cursor: pointer;
+}
+
+.square-box-twelve:hover:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+}
+
+.feedback-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 130px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    background-color:  rgb(1, 43, 142);
+    background-image: 
+    radial-gradient(
+      farthest-corner circle at 0% 0%,
+      #00ffb240 0%, 6%, #00fbba40 0% 0%, 15%, #00e0ff40 0% 0%, 33%, #00b7ff40 0% 0%, 54%, #004fff00 0% 0%
+    )
+}
+
+.popup{
+    position: relative;
+    width: 500px;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+}
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+  
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: #ECF1FD;
+    box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+    border-radius: 5px;
+}
+  
+.note{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+  
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #2B2B2F;
+}
+  
+.subtitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #5F5D6B;
+}
+  
+.input_field{
+    width: 100%;
+    height: 42px;
+    padding: 0 0 0 12px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    filter: drop-shadow(0px 1px 0px #efefef)
+      drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+  
+.input_field:focus{
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 1px #2B2B2F;
+    background-color: transparent;
+}
+  
+.form button.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 10px;
+    width: 100%;
+    height: 42px;
+    background-color:  rgb(1, 43, 142);
+    box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+    border-radius: 5px;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.RIGHT{
+    padding-left: 50px;
+    color: white;
+}
+
+.text1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text2{
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+.footer{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    padding: 30px 50px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    
+}
+
+.foot-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footimg{
+    width: 90px;
+    object-fit: contain;
+}
+
+.company-head{
+    font-weight: 700;
+}
+
+.company-subhead{
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.help-head{
+    font-weight: 700;
+}
+
+.help-subhead{
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.sublink{
+    text-decoration: none;
+    color: white;
+}
+
+.socials{
+    padding-top: 20px;
+}
+
+.icons{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.facebook{
+    width: 20px;
+    object-fit: contain;
+}
+
+.instagram{
+    width: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.twitter{
+    width: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.location-head{
+    font-weight: 700;
+}
+
+.location-subhead{
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.foot-bottom{
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+.bottom-head{
+    font-weight: 700;
+}
+
+.bottom-writeup{
+    font-weight: normal;
+    padding-top: 10px;
+    font-size: 10px;
 }
